@@ -16,19 +16,35 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />       
-      </header>
-      <h1>Mi formulario</h1>
-      <label>Nombre: </label>
-      <input
-        id="nombre"
-        name="nombre"
-        value={nombre}
-        onChange={cambiarNombre}
-      ></input>
-      <button onClick={guardarClick}>Guardar</button>
+    <div className="mi_formulario__container">
+      <div className="mi_formulario__header">
+        <h1 className="mi_formulario__title"></h1>
+      </div>
+
+      <div className="mi_formulario__body">
+        <div className="mi_formulario__form">
+          <label className="mi_formulario__label">Nombre: </label>
+          <i className="fa fa-user" aria-hidden="true"/>
+          <input
+            id="nombre"
+            name="nombre"
+            value={nombre}
+            onChange={cambiarNombre}
+            className="mi_formulario__input"
+          ></input>
+          <button onClick={guardarClick} className="mi_formulario__button">
+            Guardar
+          </button>
+        </div>
+      </div>
+
+      <div className="mi_formulario__footer">
+        <div className="mi_formulario__group">
+          <span className="mi_formulario__label">
+            Este es mi primer formulario con CSS
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
