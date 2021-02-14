@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="mi_formulario__container">
       <div className="mi_formulario__header">
-        <h1 className="mi_formulario__title"></h1>
+        <h1 className="mi_formulario__title">Mi formulario</h1>
       </div>
 
       <div className="mi_formulario__body">
