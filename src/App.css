@@ -16,3 +16,37 @@
   font-size: 40px;
   text-shadow: 2px 2px 2px blue;
 }
+
+.mi_formulario__body {
+  background-color: rgb(75 75 75 / 25%);
+}
+
+.mi_formulario__form {
+  padding: 30px;
+  text-align: left;
+}
+
+.mi_formulario__form > .mi_formulario__label {
+  color: rgb(91 88 88);
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+}
+
+.mi_formulario__input-icon {
+  width: 100%;
+  margin-bottom: 10px;
+  max-width: 250px;
+}
+
+.mi_formulario__input-icon i {
+  position: absolute;
+}
+
+.mi_formulario__input {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  color: rgb(91 88 88);
+  padding-left: 40px;
+}

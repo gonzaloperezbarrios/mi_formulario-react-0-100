@@ -24,14 +24,16 @@ function App() {
       <div className="mi_formulario__body">
         <div className="mi_formulario__form">
           <label className="mi_formulario__label">Nombre: </label>
-          <i className="fa fa-user" aria-hidden="true"/>
-          <input
-            id="nombre"
-            name="nombre"
-            value={nombre}
-            onChange={cambiarNombre}
-            className="mi_formulario__input"
-          ></input>
+          <div className="mi_formulario__input-icon">
+            <i className="fa fa-user mi_formulario__icon" aria-hidden="true" />
+            <input
+              id="nombre"
+              name="nombre"
+              value={nombre}
+              onChange={cambiarNombre}
+              className="mi_formulario__input"
+            ></input>
+          </div>
           <button onClick={guardarClick} className="mi_formulario__button">
             Guardar
           </button>
