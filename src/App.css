@@ -39,6 +39,14 @@
   max-width: 250px;
 }
 
+.mi_formulario__icon {
+  padding: 10px;
+  padding-left: 0;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+}
+
 .mi_formulario__input-icon i {
   position: absolute;
 }
