@@ -1,0 +1,95 @@
+$colorPrimary:rgb(91, 88, 88);
+$fontMd:14px;
+$imageURL:url(https://www.silviamores.com/wp-content/uploads/Gatos-callejeros-Despigat_26.jpg);
+
+.mi_formulario {
+  &__container {
+    padding: 10px;
+  }
+
+  &__header {
+    background-image: #{$imageURL};
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  &__title {
+    color: white;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px blue;
+  }
+
+  &__body {
+    background-color: rgba(75, 75, 75, 0.25);
+  }
+
+  &__form {
+    padding: 30px;
+    text-align: left;
+    &__label {
+      color: #{$colorPrimary};
+      font-size: 20px;
+      font-weight: 800;
+      display: block;
+    }
+  }
+
+  &__input-icon {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 250px;
+  }
+
+  &__icon {
+    padding: 10px;
+    padding-left: 0;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  &__input-icon i {
+    position: absolute;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    color: #{$colorPrimary};
+    padding-left: 40px;
+  }
+
+  &__button {
+    background-color: rgb(8, 119, 8);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__footer {
+    width: 100%;
+    background-color: rgb(7, 50, 85);
+    height: 40px;
+  }
+
+  &__group {
+    text-align: center;
+    position: relative;
+    top: 20%;
+  }
+
+  &__label {
+    color: white;
+    font-size: #{$fontMd};
+    font-weight: 600;
+  }
+}

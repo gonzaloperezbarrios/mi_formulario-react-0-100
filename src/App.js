@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./AppSass.scss";
 
 function App() {
   const [nombre, setNombre] = useState("Chalo Code!!");
